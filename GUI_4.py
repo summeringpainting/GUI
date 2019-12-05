@@ -26,24 +26,6 @@ class coastButtons:
         self.printButton = Button(frame, text="quit", command=frame.quit)
         self.printButton.pack(side=LEFT)
 
-#class text:
-#    def __init__(self, master):
-#        frame = Frame(master)
-#        frame.pack()
-#        self.label.pack(side=TOP)
-
-#class textInput:
-#    def __init__(self, master):
-#        frame = Frame(master)
-#        frame.pack()
-
-#        self.textDisplay = Text(frame, width=20, height=1)
-#        self.textDisplay.pack(side=LEFT, pady=10)
-
-#    def printtext():
-#        global e
-#        string = e.get()
-#        print(string)
 
 
 root.title("Guessing Game")
